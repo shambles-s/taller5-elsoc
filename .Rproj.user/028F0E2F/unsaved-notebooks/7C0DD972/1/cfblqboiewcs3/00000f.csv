@@ -1,0 +1,401 @@
+"0","pacman::p_load(sjlabelled,
+
+dplyr, #Manipulacion de datos
+stargazer, #Tablas
+sjmisc, # Tablas
+summarytools, # Tablas
+kableExtra, #Tablas
+sjPlot, #Tablas y gráficos
+corrplot, # Correlaciones
+sessioninfo, # Información de la sesión de trabajo
+ggplot2) # Para la mayoría de los gráficos
+"
+"2","Installing package into ‘C:/Users/56933/AppData/Local/R/win-library/4.3’
+(as ‘lib’ is unspecified)
+"
+"2","Warning: downloaded length 0 != reported length 0"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES.rds': HTTP status was '404 Not Found'"
+"2","Warning: downloaded length 0 != reported length 0"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES.gz': HTTP status was '404 Not Found'"
+"2","Warning: downloaded length 0 != reported length 0"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES': HTTP status was '404 Not Found'"
+"2","Warning: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3:
+  cannot open URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES'"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/stargazer_5.2.3.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 617409 bytes (602 KB)
+"
+"2","downloaded 602 KB
+
+"
+"1","package ‘stargazer’ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1",""
+"1","The downloaded binary packages are in
+	C:\Users\56933\AppData\Local\Temp\RtmpsPOGTZ\downloaded_packages"
+"1",""
+"1","
+"
+"2","
+stargazer installed
+"
+"2","Installing package into ‘C:/Users/56933/AppData/Local/R/win-library/4.3’
+(as ‘lib’ is unspecified)
+"
+"2","Warning: downloaded length 0 != reported length 0"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES.rds': HTTP status was '404 Not Found'"
+"2","Warning: downloaded length 0 != reported length 0"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES.gz': HTTP status was '404 Not Found'"
+"2","Warning: downloaded length 0 != reported length 0"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES': HTTP status was '404 Not Found'"
+"2","Warning: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3:
+  cannot open URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES'"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/sjmisc_2.8.10.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 536584 bytes (524 KB)
+"
+"2","downloaded 524 KB
+
+"
+"1","package ‘sjmisc’ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1",""
+"1","The downloaded binary packages are in
+	C:\Users\56933\AppData\Local\Temp\RtmpsPOGTZ\downloaded_packages"
+"1",""
+"1","
+"
+"2","
+sjmisc installed
+"
+"2","Warning: package ‘sjmisc’ was built under R version 4.3.3"
+"2","Installing package into ‘C:/Users/56933/AppData/Local/R/win-library/4.3’
+(as ‘lib’ is unspecified)
+"
+"2","also installing the dependencies ‘lobstr’, ‘plyr’, ‘reshape2’, ‘checkmate’, ‘magick’, ‘matrixStats’, ‘pryr’, ‘rapportools’
+
+"
+"2","Warning: downloaded length 0 != reported length 0"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES.rds': HTTP status was '404 Not Found'"
+"2","Warning: downloaded length 0 != reported length 0"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES.gz': HTTP status was '404 Not Found'"
+"2","Warning: downloaded length 0 != reported length 0"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES': HTTP status was '404 Not Found'"
+"2","Warning: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3:
+  cannot open URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES'"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/lobstr_1.1.2.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 454613 bytes (443 KB)
+"
+"2","downloaded 443 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/plyr_1.8.9.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 1164080 bytes (1.1 MB)
+"
+"2","downloaded 1.1 MB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/reshape2_1.4.4.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 459210 bytes (448 KB)
+"
+"2","downloaded 448 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/checkmate_2.3.2.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 725168 bytes (708 KB)
+"
+"2","downloaded 708 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/magick_2.8.4.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 24767982 bytes (23.6 MB)
+"
+"2","downloaded 23.6 MB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/matrixStats_1.3.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 539141 bytes (526 KB)
+"
+"2","downloaded 526 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/pryr_0.1.6.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 548754 bytes (535 KB)
+"
+"2","downloaded 535 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/rapportools_1.1.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 128109 bytes (125 KB)
+"
+"2","downloaded 125 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/summarytools_1.0.1.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 1417713 bytes (1.4 MB)
+"
+"2","downloaded 1.4 MB
+
+"
+"1","package ‘lobstr’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘plyr’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘reshape2’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘checkmate’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘magick’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘matrixStats’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘pryr’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘rapportools’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘summarytools’ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1",""
+"1","The downloaded binary packages are in
+	C:\Users\56933\AppData\Local\Temp\RtmpsPOGTZ\downloaded_packages"
+"1",""
+"1","
+"
+"2","
+summarytools installed
+"
+"2","Warning: package ‘summarytools’ was built under R version 4.3.3"
+"2","Installing package into ‘C:/Users/56933/AppData/Local/R/win-library/4.3’
+(as ‘lib’ is unspecified)
+"
+"2","also installing the dependency ‘svglite’
+
+"
+"2","Warning: downloaded length 0 != reported length 0"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES.rds': HTTP status was '404 Not Found'"
+"2","Warning: downloaded length 0 != reported length 0"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES.gz': HTTP status was '404 Not Found'"
+"2","Warning: downloaded length 0 != reported length 0"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES': HTTP status was '404 Not Found'"
+"2","Warning: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3:
+  cannot open URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES'"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/svglite_2.1.3.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 683028 bytes (667 KB)
+"
+"2","downloaded 667 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/kableExtra_1.4.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 2043147 bytes (1.9 MB)
+"
+"2","downloaded 1.9 MB
+
+"
+"1","package ‘svglite’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘kableExtra’ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1",""
+"1","The downloaded binary packages are in
+	C:\Users\56933\AppData\Local\Temp\RtmpsPOGTZ\downloaded_packages"
+"1",""
+"1","
+"
+"2","
+kableExtra installed
+"
+"2","Warning: package ‘kableExtra’ was built under R version 4.3.3"
+"2","Installing package into ‘C:/Users/56933/AppData/Local/R/win-library/4.3’
+(as ‘lib’ is unspecified)
+"
+"2","also installing the dependencies ‘effectsize’, ‘bayestestR’, ‘ggeffects’, ‘parameters’, ‘performance’, ‘sjstats’
+
+"
+"2","Warning: downloaded length 0 != reported length 0"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES.rds': HTTP status was '404 Not Found'"
+"2","Warning: downloaded length 0 != reported length 0"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES.gz': HTTP status was '404 Not Found'"
+"2","Warning: downloaded length 0 != reported length 0"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES': HTTP status was '404 Not Found'"
+"2","Warning: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3:
+  cannot open URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES'"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/effectsize_0.8.9.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 829622 bytes (810 KB)
+"
+"2","downloaded 810 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/bayestestR_0.14.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 1021000 bytes (997 KB)
+"
+"2","downloaded 997 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/ggeffects_1.7.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 877497 bytes (856 KB)
+"
+"2","downloaded 856 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/parameters_0.22.1.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 2056205 bytes (2.0 MB)
+"
+"2","downloaded 2.0 MB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/performance_0.12.2.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 3146531 bytes (3.0 MB)
+"
+"2","downloaded 3.0 MB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/sjstats_0.19.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 378720 bytes (369 KB)
+"
+"2","downloaded 369 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/sjPlot_2.8.16.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 1436934 bytes (1.4 MB)
+"
+"2","downloaded 1.4 MB
+
+"
+"1","package ‘effectsize’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘bayestestR’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘ggeffects’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘parameters’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘performance’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘sjstats’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘sjPlot’ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1",""
+"1","The downloaded binary packages are in
+	C:\Users\56933\AppData\Local\Temp\RtmpsPOGTZ\downloaded_packages"
+"1",""
+"1","
+"
+"2","
+sjPlot installed
+"
+"2","Warning: package ‘sjPlot’ was built under R version 4.3.3"
+"2","Installing package into ‘C:/Users/56933/AppData/Local/R/win-library/4.3’
+(as ‘lib’ is unspecified)
+"
+"2","Warning: downloaded length 0 != reported length 0"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES.rds': HTTP status was '404 Not Found'"
+"2","Warning: downloaded length 0 != reported length 0"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES.gz': HTTP status was '404 Not Found'"
+"2","Warning: downloaded length 0 != reported length 0"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES': HTTP status was '404 Not Found'"
+"2","Warning: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3:
+  cannot open URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES'"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/corrplot_0.92.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 3845021 bytes (3.7 MB)
+"
+"2","downloaded 3.7 MB
+
+"
+"1","package ‘corrplot’ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1",""
+"1","The downloaded binary packages are in
+	C:\Users\56933\AppData\Local\Temp\RtmpsPOGTZ\downloaded_packages"
+"1",""
+"1","
+"
+"2","
+corrplot installed
+"
+"2","Warning: package ‘corrplot’ was built under R version 4.3.3"
+"2","Installing package into ‘C:/Users/56933/AppData/Local/R/win-library/4.3’
+(as ‘lib’ is unspecified)
+"
+"2","Warning: downloaded length 0 != reported length 0"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES.rds': HTTP status was '404 Not Found'"
+"2","Warning: downloaded length 0 != reported length 0"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES.gz': HTTP status was '404 Not Found'"
+"2","Warning: downloaded length 0 != reported length 0"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES': HTTP status was '404 Not Found'"
+"2","Warning: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3:
+  cannot open URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES'"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/sessioninfo_1.2.2.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 186178 bytes (181 KB)
+"
+"2","downloaded 181 KB
+
+"
+"1","package ‘sessioninfo’ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1",""
+"1","The downloaded binary packages are in
+	C:\Users\56933\AppData\Local\Temp\RtmpsPOGTZ\downloaded_packages"
+"1",""
+"1","
+"
+"2","
+sessioninfo installed
+"
+"2","Warning: package ‘sessioninfo’ was built under R version 4.3.3"

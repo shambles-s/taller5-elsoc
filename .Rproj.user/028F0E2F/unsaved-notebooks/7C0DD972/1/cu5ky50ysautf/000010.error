@@ -1,0 +1,1 @@
+{"frames":[],"message":"Error in wvs %>% group_by(B_COUNTRY) %>% summarise(gdp = mean(GDPpercap1,  : \n  could not find function \"%>%\"\n"}
